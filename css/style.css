@@ -145,6 +145,19 @@
   padding: 5px;
 }
 
+/* Usando la pseudo clase focus, en los input de la pagina contactenos.html */
+#main-contacto form input:focus{
+  background-color: #aaf0f4;
+  transform: scale(1.05);
+}
+
+/*  Usando la pseudo clase focus, en el textarea de la pagina contactenos.html */
+#main-contacto form textarea:focus{
+  background-color: #aaf0f4;
+  transform: scale(1.05);
+}
+
+
 /*----------------Pagina Equipo------------------*/
 
 /*    En esta seccion se uso bootstrap       */
@@ -188,7 +201,7 @@
 }
 
 
-/*-------------------Pagina Servicios----------------*/
+/*-------------------Pagina Galeria----------------*/
 .falso-body {
   background-color: #e5e5e5;
   min-height: 100vh;
@@ -226,9 +239,10 @@ header h1 {
   transition: 0.5s;
 }
 
-/* Aqui ocurre una transicion de 2 segundos y un aumento de tamaño de un 8%, al pasar el mouse por la imagen*/
+/* Aqui ocurre una transicion de 2 segundos, una rotacion de 2 grados y un aumento de tamaño de un 8%, al pasar el mouse por una imagen de la galeria*/
 .imagen:hover {
   transform: scale(1.125);
+  rotate: 2deg;
   transition: 0.2s;
 }
 
