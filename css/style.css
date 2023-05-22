@@ -119,6 +119,10 @@
   /* border: 2px solid black; */
 }
 
+/* Usando un gradiente radial en la pagina home */
+.gradiente-radial{
+  background-image: radial-gradient(rgb(187, 140, 244), rgb(243, 209, 209));
+}
 
 /*------------Pagina contactenos------------------------*/
 #main-contacto {
@@ -134,7 +138,7 @@
 
 /* Aquí se agrega un gradiente lineal */
 .gradiente-lineal{
-  background-image: linear-gradient(#c6d8e7,#9ebca9,#718687);
+  background-image: linear-gradient(#c6d8e7 30%,#9ebca9 30%,#718687 40%);
 }
 
 #main-contacto li {
