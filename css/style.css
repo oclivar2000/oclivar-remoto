@@ -132,6 +132,11 @@
   align-items: center;
 }
 
+/* Aquí se agrega un gradiente lineal */
+.gradiente-lineal{
+  background-image: linear-gradient(#c6d8e7,#9ebca9,#718687);
+}
+
 #main-contacto li {
   padding: 5px;
 }
