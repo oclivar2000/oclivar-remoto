@@ -226,8 +226,10 @@ header h1 {
   transition: 0.5s;
 }
 
+/* Aqui ocurre una transicion de 2 segundos y un aumento de tamaño de un 8%, al pasar el mouse por la imagen*/
 .imagen:hover {
-  transform: scale(1.1);
+  transform: scale(1.125);
+  transition: 0.2s;
 }
 
 .imagen1 {
@@ -298,7 +300,7 @@ header h1 {
 /*------------Footer, el mismo para todas las paginas html------------------*/
 .footer {
   min-height: 10vh;
-  background-color: aqua;
+  background-color: rgb(146, 245, 245);
   align-items: center;
 }
 
