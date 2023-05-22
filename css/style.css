@@ -157,6 +157,20 @@
   transform: scale(1.05);
 }
 
+.btn-prueba{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 6px 7px 4px rgb(93, 227, 111);
+}
+
+.btn-prueba:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transform: scale(1.05);
+  transition: 2s;
+}
 
 /*----------------Pagina Equipo------------------*/
 
